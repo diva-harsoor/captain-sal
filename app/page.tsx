@@ -1,8 +1,8 @@
-import type { AppProps } from 'next/app';
-import '../styles/styles.css';
+import type { NextPage } from 'next';
+import Game from '../components/Game';
 
-function MyApp({ Component, pageProps }: AppProps) {
-    return <Component {...pageProps} />
-}
+const Home: NextPage = () => {
+    return <Game />;
+};
 
-export default MyApp;
+export default Home;
