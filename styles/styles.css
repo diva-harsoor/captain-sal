@@ -1,0 +1,172 @@
+*
+{
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    margin-top: 0;
+    font-size: 22px;
+  }
+  
+  h2 {
+    margin-top: 0;
+    font-size: 20px;
+  }
+  
+  h3 {
+    margin-top: 0;
+    font-size: 18px;
+  }
+  
+  h4 {
+    margin-top: 0;
+    font-size: 16px;
+  }
+  
+  h5 {
+    margin-top: 0;
+    font-size: 14px;
+  }
+  
+  h6 {
+    margin-top: 0;
+    font-size: 12px;
+  }
+  
+  code {
+    font-size: 1.2em;
+  }
+  
+  ul {
+    padding-inline-start: 20px;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    margin: 20px;
+    padding: 0;
+  }
+
+  .circle {
+    background-color: #fff;
+    border-radius: 50%;
+    font-weight: bold;
+    border: 1px solid #999;
+  }
+
+  .board-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px; /* Adjust the width as needed */
+    height: 600px; /* Adjust the height as needed */
+    margin: 0 auto;
+  }  
+    
+  .board-row {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: 'center';
+  }
+
+  .centered-row {
+    display: flex;
+    justify-content: center;
+  }  
+  
+  .status {
+    margin-bottom: 10px;
+  }
+
+  .cell-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px; /* Adjust the margin as needed */
+  }
+    
+  .cell-row {
+    display: flex;
+    align-items: center;
+  }
+    
+  .game-info {
+    margin-left: 20px;
+  }
+
+  .rhombus {
+    margin: 5px; /* Adjust the margin as needed */
+    width: 10px; /* Adjust the width as needed */
+    height: 10px; /* Adjust the height as needed */
+    transform: scale(0.8); /* Adjust the scale factor as needed */
+  }
+    
+  .tilt-right {
+    margin-left: 30px;
+    transform: rotate(35deg) skewX(45deg) scaleY(cos(45deg));
+  }
+  .center {
+    transform: rotate(-20deg) skewX(45deg) scaleY(cos(45deg));
+  }
+  
+  .tilt-left {
+    margin-left: -50px;
+    transform: rotate(100deg) skewX(45deg) scaleY(cos(45deg));
+  }
+
+  .purple {
+    background-color: purple;
+  }
+
+  .keypad-button {
+    display: block;
+    margin: 10px auto;
+    padding: 8px 16px;
+    font-size: 1em; /* Adjust the font size as needed */
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+    
+  .keypad-button:hover {
+    background-color: #e0e0e0;
+  }
+
+  .game-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px 200px;
+  }
+  
+  .instructions {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .game-board {
+    flex: 2;
+  }
+  
+  .keypad {
+    flex: 1;
+    margin-left: 20px;
+  }
+
+  .scratch {
+    color: gray;
+    font-size: 0.6em; /* Adjust the font size as needed */
+  }
+  

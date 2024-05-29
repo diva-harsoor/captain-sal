@@ -1,11 +1,8 @@
-import { Welcome } from '../components/Welcome/Welcome';
-import { ColorSchemeToggle } from '../components/ColorSchemeToggle/ColorSchemeToggle';
+import type { AppProps } from 'next/app';
+import '../styles/styles.css';
 
-export default function HomePage() {
-  return (
-    <>
-      <Welcome />
-      <ColorSchemeToggle />
-    </>
-  );
+function MyApp({ Component, pageProps }: AppProps) {
+    return <Component {...pageProps} />
 }
+
+export default MyApp;
